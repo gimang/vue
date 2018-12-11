@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>[vue_study] #1 basic</title>
+
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script>
+    var app = new Vue({
+      el: '#div01',
+      data: {
+        message: 'Vue!!!!'
+      }
+    })
+  </script>
+</head>
+
+<body>
+  Hello World!
+
+  <div id="div01">
+    {{ message }}
+  </div>
+</body>
+
+</html>
